@@ -1,0 +1,235 @@
+
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 85%;
+  max-width: 850px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+h1{
+  background-color:yellowgreen;
+}
+h1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img{
+  margin-right: 150px;
+  margin-bottom: 160px;
+  height: 100%;
+  border:5px solid #fff;
+}
+
+
+.img{
+  margin-right: 150px;
+  margin-bottom: 160px;
+  border: 5px solid #fff;
+}
+
+
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 3px solid red;
+  font-family: arial;
+  font-size: small;
+  background-color:pink;
+  padding: 3PX;
+  color: black;
+}
+
+#cabecera { clear: both;background-color: aquamarine; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%;}
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left;;}
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu_principal li {
+  list-style: none;
+  float: left;
+ display: inline; float: left;
+border:1px solid violet;
+color: #fff;
+margin-right: 5px; 
+padding: 1px; 
+background-color: violet;
+}
+
+#menu ul li a:hover{
+background-color: #e0e;
+color: #006699;
+}
+
+h2{
+  font-family: arial;
+  color: #C5C5C5;
+}
+.img{
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#parrafo{
+  color: #C60;
+  text-align: justify;
+  font-family: arial;
+  font-size: small;
+}
+h3{
+   color: #fff6cd;
+   
+}
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left;}
+
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left;background-color: greenyellow; }
+#pie .copyright { float: right; }
+
+body {
+  font: .9em/1.4 Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#lateral #noticias,
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+  border: none;
+}
+
+#lateral {
+  padding: 0;
+  border: none;
+}
+
+#cabecera {
+  padding: 1em;
+}
+
+
+#menu {
+  margin-bottom: .5em;
+  border-bottom: 1px solid #C60;
+}
+#menu li {
+  margin-right: 1em;
+  font-size: 1.3em;
+}
+
+#menu li a {
+  color: #FFF;
+}
+
+
+#contenido {
+  width: 77%;
+  padding: 0;
+}
+
+#contenido #principal {
+  width: 75%;
+}
+
+#contenido #secundario {
+  border: 3px solid #C5C5C5;
+}
+#contenido #secundario h2 {
+  background: #C60;
+padding: .1em;
+font-size: 1em;
+  color: #FFF;
+}
+
+#pie {
+  padding: .5em;
+  margin-top: 3em;
+  border-top: 5px solid #C5C5C5;
+  border-bottom: 5px solid #C5C5C5;
+  background: #fff6CD;
+  color: #C5C5C5;
+  margin-top: 3em;
+  border-top:5PX solid #999 ;
+  font-size: .75em;
+}
+
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+#contenido #principal .articulo p {
+  margin: .5em ;
+  border: 5px solid #C5C5C5;
+  font-family: arial;
+  font-size: small;
+
+}
+
+#contenido #principal .articulo a {
+  color: #C60;
+}
+
+#contenido #principal .articulo h2 {
+  color: #C60;
+  font-family: cursive;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: .3em;
+}
+
+#contenido #principal .articulo img {
+  margin: .5em;
+}
+#lateral #noticias {
+  border: 3px solid #C5C5C5;
+  background: #FFF6CD;
+  padding: 1em;
+}
+#lateral #noticias h3 {
+  margin-top: 1em;
+  padding: 1em;
+  display: block;
+  background-color:#FFF6CD;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+
+  
+}
+#lateral #noticias {
+  display: block;
+  border: 3px solid #c5c5c5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+#lateral #publicidad {
+  margin-top: 1em;
+  border: px  #ff0000ec;
+  border:3px solid #C5C5C5;
+  background-color: #FFF6CD;
+  color: violet;
+  padding: 1em;
+  font-family:  Tahoma , Verdana;
+  font-size: small;
+}
+
+#lateral #publicidad a {
+  color: #C60;
+}
